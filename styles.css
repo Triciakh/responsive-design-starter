@@ -345,3 +345,106 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+/* responsive style */
+
+@media screen and (max-width:767px) {
+    #mobile-menu {
+        display: block;
+    }
+    .nav-links li {
+        display: none;
+    }
+    .nav-links li.icon {
+        float: right;
+        display: block;
+    }
+    .nav-links.responsive {
+        position: relative;
+    }
+    .nav-links.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav-links.responsive li {
+        float: none;
+        display: block;
+        text-align: left;
+        margin: 15px 0;
+    }
+    div.nav-bar {
+        padding: 1rem;
+    }
+    div.log {
+        font-size: 1.2rem;
+    }
+    ul.nav-links {
+        display: block;
+    }
+    ul li {
+        font-size: 0.9rem;
+    }
+    div.background {
+        padding: 10px 40px;
+        height: 100%;
+    }
+    div.hero-section,
+    div.snapshot-team,
+    div.gallery-section,
+    div.footer {
+        padding: 2rem;
+    }
+    div.hero-background {
+        padding: 8rem 3rem;
+    }
+    div.background h4 {
+        padding: 2rem 0rem;
+        font-size: 1rem;
+    }
+    div.background p {
+        padding-left: 0rem;
+    }
+    div.hero-background-pos {
+        width: 105px;
+        height: 105px;
+    }
+    div.snapshot-box {
+        padding: 4rem 2rem;
+    }
+    div.snapshot-box-content {
+        flex-flow: wrap;
+    }
+    div.box1,
+    div.box3 {
+        width: 100%;
+        margin: 10px 0px;
+    }
+    div.footer-input {
+        flex-flow: wrap;
+    }
+    input[type="text"],
+    input[type="email"] {
+        margin-right: 0;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+    div.footer-textarea {
+        padding: 0;
+    }
+    textarea {
+        width: 100%;
+    }
+    .fa {
+        color: #bcc3c7;
+        font-size: 1.3rem!important;
+    }
+}
+
+@media screen and (max-width:320px) {
+    div.hero-content-heading h3 {
+        font-size: 1.5rem;
+    }
+    div.hero-content-heading p {
+        padding-top: 0.6rem;
+    }
+}
